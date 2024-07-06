@@ -3,8 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the carousel styles
 import logo from './Logo.png'; // Adjust the path as necessary
 import image1 from './Illustration.png'; // Add your images
-import image2 from './Illustration.png';
-import image3 from './Illustration.png';
+
 import logo1 from './Vector.png';
 import logo2 from './Logo (1).png';
 import logo3 from './Logo (2).png';
@@ -47,7 +46,7 @@ const Topsection = () => {
         </div>
       </nav>
       <div className="container mx-auto flex flex-col md:flex-row mt-20">
-        <div className="md:pl-8  md:mt-0">
+        <div className="">
            <Carousel
             showThumbs={false}
             showStatus={false}
@@ -60,9 +59,12 @@ const Topsection = () => {
           >
             <div className="flex items-center">
               <div className="w-1/2 md:pr-2">
-                <h1 className="text-3xl font-bold mb-4 ">Lessons and Insights</h1>
-                <h1 className="text-3xl font-bold mb-4  text-[#4CAF50]">from 8 years</h1>
-                <h6 className="text-gray-700 ">
+              <div className="text-3xl font-bold mb-4 mx-4">
+                <p>Lessons and Insights</p>
+              <p className='text-[#4CAF50]'> from 8 years</p>
+              </div>
+                
+                <h6 className="text-gray-700 text-xs mb-10">
                   Where to grow your business as a photographer: site or social media?
                 </h6>
                 <button className="  bg-[#4CAF50] text-white px-4 py-2 rounded">
@@ -73,12 +75,15 @@ const Topsection = () => {
             </div>
             <div className="flex items-center">
               <div className="w-1/2 md:pr-2">
-                <h1 className="text-3xl font-bold mb-4 ">Lessons and Insights</h1>
-                <h1 className="text-3xl font-bold mb-4  text-[#4CAF50]">from 8 years</h1>
-                <h6 className="text-gray-700 ">
+              <div className="text-3xl font-bold mb-4 mx-4">
+                <p>Lessons and Insights</p>
+              <p className='text-[#4CAF50]'> from 8 years</p>
+              </div>
+                
+                <h6 className="text-gray-700 text-xs mb-10">
                   Where to grow your business as a photographer: site or social media?
                 </h6>
-                <button className=" bg-[#4CAF50] text-white px-4 py-2 rounded">
+                <button className="  bg-[#4CAF50] text-white px-4 py-2 rounded">
                   Register
                 </button>
               </div>
@@ -86,12 +91,15 @@ const Topsection = () => {
             </div>
             <div className="flex items-center">
               <div className="w-1/2 md:pr-2">
-                <h1 className="text-3xl font-bold mb-4 ">Lessons and Insights</h1>
-                <h1 className="text-3xl font-bold mb-4  text-[#4CAF50]">from 8 years</h1>
-                <h6 className="text-gray-700 ">
+              <div className="text-3xl font-bold mb-4 mx-4">
+                <p>Lessons and Insights</p>
+              <p className='text-[#4CAF50]'> from 8 years</p>
+              </div>
+                
+                <h6 className="text-gray-700 text-xs mb-10">
                   Where to grow your business as a photographer: site or social media?
                 </h6>
-                <button className="bg-[#4CAF50] text-white px-4 py-2 rounded">
+                <button className="  bg-[#4CAF50] text-white px-4 py-2 rounded">
                   Register
                 </button>
               </div>
