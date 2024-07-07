@@ -31,7 +31,7 @@ function App() {
           <img src={logo} alt="Logo" className="h-10 w-30 mr-3" />
         </div>
         <div className={`flex-1 justify-center lg:flex ${menuOpen ? 'flex' : 'hidden'} flex-col lg:flex-row lg:items-center`}>
-          <ul className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 md:space-x-8 lg:space-x-14">
+          <ul className="flex flex-col lg:flex-row space-y-4 lg:space-y-0  md:space-x-8 lg:space-x-14">
             <li className="lg:hidden flex items-center justify-center">
               <img src={logo} alt="Logo" className="h-10 w-30" />
             </li>

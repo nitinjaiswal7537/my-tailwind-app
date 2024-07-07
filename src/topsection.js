@@ -17,7 +17,7 @@ const Topsection = () => {
     <div className="bg-white dark:bg-gray-800 text-black dark:text-white p-4">
       
       <div className="container mx-auto flex flex-col md:flex-row mt-20">
-        <div className="">
+        <div className="sm:mx-6 sm:mb-6 md:mx-8 md:mb-8">
            <Carousel
             showThumbs={false}
             showStatus={false}
@@ -78,33 +78,34 @@ const Topsection = () => {
             </div>
           </Carousel>
           <div className="mt-10 flex justify-center items-center">
-            <div className="text-center mb-4">
-              <p className="text-lg font-bold">Our Clients</p>
-              <p>We have been working with some Fortune 500+ clients</p>
-            </div>
-            </div>
-            <div className="flex justify-center w-full">
-              <div className="flex flex-wrap justify-center">
-                <div className="flex items-center flex-col mx-8 mb-8">
-                  <img src={logo1} alt="Client 1" className="w-20 h-20 object-contain mb-2" />
-                </div>
-                <div className="flex items-center flex-col mx-8 mb-8">
-                  <img src={logo2} alt="Client 2" className="w-20 h-20 object-contain mb-2" />
-                </div>
-                <div className="flex items-center flex-col mx-8 mb-8">
-                  <img src={logo3} alt="Client 3" className="w-20 h-20 object-contain mb-2" />
-                </div>
-                <div className="flex items-center flex-col mx-8 mb-8">
-                  <img src={logo4} alt="Client 4" className="w-20 h-20 object-contain mb-2" />
-                </div>
-                <div className="flex items-center flex-col mx-8 mb-8">
-                  <img src={logo5} alt="Client 5" className="w-20 h-20 object-contain mb-2" />
-                </div>
-                <div className="flex items-center flex-col mx-8 mb-8">
-                  <img src={logo6} alt="Client 6" className="w-20 h-20 object-contain mb-2" />
-                </div>
-              </div>
-            </div>
+  <div className="text-center mb-4">
+    <p className="text-lg font-bold">Our Clients</p>
+    <p>We have been working with some Fortune 500+ clients</p>
+  </div>
+</div>
+<div className="flex justify-center">
+  <div className="flex flex-wrap justify-center max-w-screen-lg">
+    <div className="flex items-center flex-col mx-4 mb-4 sm:mx-6 sm:mb-6 md:mx-8 md:mb-8">
+      <img src={logo1} alt="Client 1" className="w-15 h-15 object-contain mb-2" />
+    </div>
+    <div className="flex items-center flex-col mx-4 mb-4 sm:mx-6 sm:mb-6 md:mx-8 md:mb-8">
+      <img src={logo2} alt="Client 2" className="w-15 h-15 object-contain mb-2" />
+    </div>
+    <div className="flex items-center flex-col mx-4 mb-4 sm:mx-6 sm:mb-6 md:mx-8 md:mb-8">
+      <img src={logo3} alt="Client 3" className="w-15 h-15 object-contain mb-2" />
+    </div>
+    <div className="flex items-center flex-col mx-4 mb-4 sm:mx-6 sm:mb-6 md:mx-8 md:mb-8">
+      <img src={logo4} alt="Client 4" className="w-15 h-15 object-contain mb-2" />
+    </div>
+    <div className="flex items-center flex-col mx-4 mb-4 sm:mx-6 sm:mb-6 md:mx-8 md:mb-8">
+      <img src={logo5} alt="Client 5" className="w-15 h-15 object-contain mb-2" />
+    </div>
+    <div className="flex items-center flex-col mx-4 mb-4 sm:mx-6 sm:mb-6 md:mx-8 md:mb-8">
+      <img src={logo6} alt="Client 6" className="w-15 h-15 object-contain mb-2" />
+    </div>
+  </div>
+</div>
+
           
         </div>
       </div>
