@@ -56,7 +56,7 @@ function App() {
         </div>
       </nav>
 
-      <div className="dark:bg-blue-900">
+      <div className="dark:bg-gray-800">
         <Topsection />
         <MiddleSection />
         <Bottom />
