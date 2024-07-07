@@ -20,7 +20,7 @@ import pana from './pana.png';
 
 const MiddleSection = () => {
   return (
-    <div>
+    <div className='bg-white dark:bg-gray-800 text-black dark:text-white p-4'>
       <div className="text-2xl flex justify-center items-center mt-4">
         <h1 className="font-bold text-center">
           Manage your entire community<br />

@@ -9,7 +9,7 @@ import right from './Down.png';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='bg-white dark:bg-gray-800 text-black dark:text-white p-4'>
             <div className="text-center w-1/3 mx-auto mt-4">
                 <p className="text-3xl font-bold mt-20 ">
                     Pellentesque suscipit fringilla libero eu.

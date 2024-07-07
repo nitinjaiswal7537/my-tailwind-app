@@ -6,7 +6,7 @@ import right from './Right.png';
 
 const Bottom = () => {
   return (
-    <div className="text-white py-10">
+    <div className=" py-10 bg-white dark:bg-gray-800 text-black dark:text-white p-4">
       <div className="flex justify-center space-x-4">
         <div className="relative w-1/3">
           <img src={image1} alt="Footer Image 1" className="w-full" />

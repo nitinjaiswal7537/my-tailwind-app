@@ -3,48 +3,22 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the carousel styles
 import logo from './Logo.png'; // Adjust the path as necessary
 import image1 from './Illustration.png'; // Add your images
-
+import { IoMoon } from "react-icons/io5";
+import { IoSunny } from "react-icons/io5";
 import logo1 from './Vector.png';
 import logo2 from './Logo (1).png';
 import logo3 from './Logo (2).png';
 import logo4 from './Logo (3).png';
 import logo5 from './Logo (4).png';
 import logo6 from './Logo (5).png';
-import logo7 from './Logo (6).png';
+import { useState } from 'react';
 
 
 const Topsection = () => {
+  
   return (
-    <div className="bg-white shadow-md">
-      <nav className="container mx-auto flex items-center justify-between py-4">
-        <div className="flex items-center">
-          <img src={logo} alt="Logo" className="h-10 w-30 mr-3" />
-        </div>
-        <div className="flex-1 flex justify-center">
-          <ul className="flex space-x-14">
-            <li><a href="#" className="text-gray-800 hover:text-blue-500 no-underline">Home</a></li>
-            <li><a href="#" className="text-gray-800 hover:text-blue-500 no-underline">Service</a></li>
-            <li><a href="#" className="text-gray-800 hover:text-blue-500 no-underline">Feature</a></li>
-            <li><a href="#" className="text-gray-800 hover:text-blue-500 no-underline">Product</a></li>
-            <li><a href="#" className="text-gray-800 hover:text-blue-500 no-underline">Testimonial</a></li>
-            <li><a href="#" className="text-gray-800 hover:text-blue-500 no-underline">FAQ</a></li>
-          </ul>
-        </div>
-        <div className="ml-8">
-          <ul className="flex space-x-4">
-            <li>
-              <a href="#" className="text-[#4CAF50] hover:bg-[#4CAF50] hover:text-white px-3 py-2 rounded">
-                Login
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-[#4CAF50] hover:bg-[#4CAF50] hover:text-white px-3 py-2 rounded">
-                Sign Up
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <div className="bg-white dark:bg-gray-800 text-black dark:text-white p-4">
+      
       <div className="container mx-auto flex flex-col md:flex-row mt-20">
         <div className="">
            <Carousel
@@ -54,7 +28,7 @@ const Topsection = () => {
             useKeyboardArrows
             autoPlay
             interval={3000}
-            className="w-full  mx-auto"
+            className="mx-auto"
             style={{ height: '800px' }} 
           >
             <div className="flex items-center">

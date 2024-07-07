@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+/* Dark mode styles */
+.dark .App-header {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+}
+
+.dark .App-link {
+  color: #4caf50;
+}
+
+.dark .App-logo {
+  filter: invert(1);
+}
