@@ -1,17 +1,14 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the carousel styles
-import logo from './Logo.png'; // Adjust the path as necessary
-import image1 from './Illustration.png'; // Add your images
-import { IoMoon } from "react-icons/io5";
-import { IoSunny } from "react-icons/io5";
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
+import image1 from './Illustration.png'; 
+
 import logo1 from './Vector.png';
 import logo2 from './Logo (1).png';
 import logo3 from './Logo (2).png';
 import logo4 from './Logo (3).png';
 import logo5 from './Logo (4).png';
 import logo6 from './Logo (5).png';
-import { useState } from 'react';
 
 
 const Topsection = () => {
